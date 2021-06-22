@@ -3,6 +3,43 @@ body {
 }
 
 #cabecalho {
+    display: inline-block;
     position: fixed; 
     top: 0;
+    border: 1px solid black;
+    width: 100%;
+    background-color: rgb(189, 183, 173);
+}
+
+#titulo {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin-left: 5%;
+}
+
+#minha_foto {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.paragrafo {
+    letter-spacing: normal;
+}
+
+.text-titulo {
+    color: rgb(73, 71, 70);
+}
+
+main {
+    margin-left: 2%;
+}
+
+#link {
+    padding: 10px;
 }
