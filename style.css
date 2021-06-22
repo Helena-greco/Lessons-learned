@@ -14,7 +14,7 @@ body {
 #titulo {
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size:x-large;
 }
 
 table, th, td {
@@ -34,6 +34,7 @@ table, th, td {
 
 .text-titulo {
     color: rgb(73, 71, 70);
+    font-weight: bolder;
 }
 
 main {
