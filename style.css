@@ -40,7 +40,7 @@ main {
   margin-right: auto;
 }
 
-table,th,td {
+table , th , td {
   border: 1px solid rgb(10, 143, 39);
   margin-left: 5%;
   text-align: center;
