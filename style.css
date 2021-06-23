@@ -20,8 +20,8 @@ main {
 
 #titulo {
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
     color: rgb(54, 53, 52);
 }
 
@@ -53,7 +53,7 @@ table, th, td {
 
 .text-titulo {
     color: rgb(54, 53, 52);
-    font-weight: bolder;
+    font-weight: bold;
     clear: both;
     text-align: center;
     border: 1px solid rgb(10, 143, 39);
@@ -78,7 +78,7 @@ table, th, td {
     width: fit-content;
     margin: auto;
     border: 1px solid rgb(10, 143, 39);
-    background-color: rgb(160, 243, 135)
+    background-color: rgb(160, 243, 135);
 }
 
 .link {
