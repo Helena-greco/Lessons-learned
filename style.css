@@ -2,13 +2,17 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+main {
+    margin-left: 2%;
+}
+
 #cabecalho {
     display: inline-block;
     position: fixed;
     top: 0;
-    border: 1px solid black;
+    border: 1px solid rgb(10, 143, 39);
     width: 100%;
-    background-color: rgb(189, 183, 173);
+    background-color: rgb(160, 243, 135);
 }
 
 #titulo {
@@ -17,15 +21,25 @@ body {
     font-size:x-large;
 }
 
-table, th, td {
-    border: 1px solid black;
-    margin-left: 5%;
-}
-
 #minha_foto {
+    display: block;
     width: 200px;
     border-radius: 50%;
     margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid rgb(10, 143, 39);
+    margin-left: 5%;
+    text-align: center;
+    padding: 2px;
 }
 
 .paragrafo {
@@ -35,12 +49,29 @@ table, th, td {
 .text-titulo {
     color: rgb(73, 71, 70);
     font-weight: bolder;
+    clear: both;
+    text-align: center;
+    border: 1px solid rgb(10, 143, 39);
+    background-color: rgb(160, 243, 135);
 }
 
-main {
-    margin-left: 2%;
+.lado-esquerdo {
+    display: block;
+    width: 45%;
+    float: left;
+}
+
+.lado-direito {
+    display: block;
+    width: 45%;
+    float: right;
 }
 
 #link {
     padding: 10px;
+    text-align: center;
+}
+
+#rodape {
+    clear: both;
 }

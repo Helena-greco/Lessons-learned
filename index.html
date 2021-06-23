@@ -13,21 +13,24 @@
     </header>
     <main>
         <img id="minha_foto" src="helena.jpeg" alt="foto da Helena">
-        <h2 class="text-titulo">Curso de formação da Trybe</h1>
-        <h3 class="text-titulo">Lições aprendidas:</h2>
-        <ol id="licoes_aprendidas">
-            <li>Unix</li>
-            <li>Shell</li>
-            <li>Bash</li>
-            <li>Git</li>
-            <li>Github</li>
-            <li>Internet</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>CSS semântico</li>
-            <li>HTML 5</li>
-        </ol>
-        <h3 class="text-titulo">Lições a aprender:</h2>
+        <h2 class="text-titulo">Curso de formação da Trybe</h2>
+        <div class="lado-esquerdo">
+            <h3 class="text-titulo">Lições aprendidas:</h3>
+            <ol id="licoes_aprendidas">
+                <li>Unix</li>
+                <li>Shell</li>
+                <li>Bash</li>
+                <li>Git</li>
+                <li>Github</li>
+                <li>Internet</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>CSS semântico</li>
+                <li>HTML 5</li>
+            </ol>
+        </div>
+        <div class="lado-direito">
+            <h3 class="text-titulo">Lições a aprender:</h3>
         <ul id="licoes_a_aprender">
             <li>JavaScript</li>
             <li>DOM</li>
@@ -40,8 +43,9 @@
             <li>Estrutura de dados</li>
             <li>Algoritmos</li>
         </ul>
+        </div>
         <h3 class="text-titulo">Relação de Blocos e conteúdos </h3>
-        <table>
+        <table class="table">
             <tr>
                 <td>Bloco 1</td>
                 <td>Bloco 2</td>
@@ -55,12 +59,16 @@
         </table>
         <article id="article">
             <h3 class="text-titulo">Sobre meu aprendizado na Trybe</h3>
+            <div class="lado-esquerdo">
             <p class="paragrafo">Minha trajetória no curso da Trybe começou no dia 07 de junho de 2021. Está sendo uma experiência incrível, pude evoluir muito em apenas duas semanas de curso. Tenho Instrutores dispostos a ensinar, dinâmicas que proporcionam novas amizades e ensinamentos e colegas prontos a ajudar. A Trybe tem mudado a minha vida.</p>
+            </div>
         </article>
         <aside>
-            <section id="section">
-            <p class="paragrafo">Em apenas 15 dias, aprendi a utilizar o terminal, abrir e manusear o editor de texto, a utilização do HTML para construção de uma página web, personalizar esta mesma página com o CSS e as Softskills.</p>
-            </section>
+             <div class="lado-direito">
+                <section id="section">
+                    <p class="paragrafo">Em apenas 15 dias, aprendi a utilizar o terminal, abrir e manusear o editor de texto, a utilização do HTML para construção de uma página web, personalizar esta mesma página com o CSS e as Softskills.</p>
+                </section>
+             </div>
         </aside>
     </main>
     <footer id="rodape">
